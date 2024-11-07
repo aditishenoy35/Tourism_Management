@@ -14,7 +14,7 @@ def create_connection_pool():
         pool_size=5,
         host="localhost",
         user="root",
-        password="rnsit@007",
+        password="xyz",
         database="t2",
     )
 
@@ -26,7 +26,7 @@ def set_app_style():
     """
     Defines custom CSS styles for the Streamlit app.
     """
-    image_path = r"C:\\Users\\sheno\\Desktop\\bg2.jpg"
+    image_path = r"C:\\Users\\Desktop\\bg2.jpg"
     st.markdown(
         f"""
         <style>
@@ -631,9 +631,9 @@ def show_image_carousel():
 
     # List of image file paths
     image_files = [
-        r"C:\\Users\\sheno\\Desktop\\forest.jpg",
-        r"C:\\Users\\sheno\\Desktop\\tajmahal (2).png",
-        r"C:\\Users\\sheno\\Desktop\\image.jpg",
+        r"C:\\Users\\Desktop\\forest.jpg",
+        r"C:\\Users\\Desktop\\tajmahal (2).png",
+        r"C:\\Users\\Desktop\\image.jpg",
     ]
 
     # Corresponding captions for each image
